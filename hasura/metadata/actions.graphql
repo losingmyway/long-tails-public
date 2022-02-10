@@ -1,0 +1,10 @@
+type Query {
+  json_data: [JsonItem]
+}
+
+type JsonItem {
+  id: ID!
+  title: String!
+  description: String!
+}
+

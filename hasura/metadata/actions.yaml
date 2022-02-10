@@ -1,0 +1,11 @@
+actions:
+- name: json_data
+  definition:
+    kind: ""
+    handler: http://host.docker.internal:3333/json-data
+custom_types:
+  enums: []
+  input_objects: []
+  objects:
+  - name: JsonItem
+  scalars: []
